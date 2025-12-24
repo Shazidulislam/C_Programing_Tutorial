@@ -49,8 +49,7 @@ int main()
     float PI = 3.1416;
 
     // !! Character typer joto value/ ase ta sob store korbo char data type e
-    char hashtar  = "#";
-
+    char hashtar = "#";
 
     return 0;
 }
@@ -62,23 +61,12 @@ int main()
 // !!  Types const e types 3 doroner hoi
 
 // ?? 1. Ineger Constants --> 1,2, 0 , -1 , -2
-//??  2. Real Constants   --> 1.0 , 2.0 , 3.23 , 
+//??  2. Real Constants   --> 1.0 , 2.0 , 3.23 ,
 //??  3. Character        --> 'A' , 'a' , '%'  , '#'
 
 // !! Note Character ke single cots '' use korte hobe
 
-
-
-
-
-
-
-
-
-
-
-
-// ** 
+// **
 //!! Keywords
 // ?Reserved words that have special
 // ?meaning to the compiler
@@ -86,19 +74,32 @@ int main()
 
 //**Keywords */
 // ** auto double int struct
-// ** 
+// **
 // ** break else long switch
-// ** 
+// **
 // ** case enum register typedef
-// ** 
+// **
 // ** char extern return union
-// ** 
+// **
 // ** continue for signed void
-// ** 
+// **
 // ** do if static while
-// ** 
+// **
 // ** default goto sizeof volatile
-// ** 
+// **
 // ** const float short unsigned
 
 //! ei keywords gula variable hisabe likte parbo na
+
+// Output
+int main()
+{
+    printf("Hello bro");
+    printf("Hello bro");
+    printf("Hello bro");
+    printf("Hello bro");
+    printf("Hello bro");
+    
+
+    return 0;
+}

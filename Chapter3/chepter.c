@@ -93,9 +93,9 @@ int main()
             */
 
             //!! Write a program to check if a student passed or failed
-            int marks ;
-            printf("Entey Your Marks : ");
-            scanf("%d" , &marks);
+            // int marks ;
+            // printf("Entey Your Marks : ");
+            // scanf("%d" , &marks);
             
             // if(marks>30){
             //     printf("Student passed  \n");
@@ -103,19 +103,21 @@ int main()
             //     printf("Student fail \n");
             // }
 
-            if(90<=marks&&marks<=100){
-                printf("Student got A+");
-            }else if(70<=marks&&marks<90){
-                printf("Student got A");
-            }else if(30<=marks&&marks<70){
-                printf("Student got B"); 
-            }else if(marks<30){
-                printf("Student Got C");
-            }else{
-                printf("Student fail");
+          
+            // !! 
+            char ch;
+            printf("Enter a char : ");
+            scanf("%c" , &ch);
+
+            if(ch>='A'&&ch<='Z'){
+                printf("Character is Uppercase");
             }
-
-
+            else if(ch>='a'&&ch<='z'){
+                printf("Character is lower case");
+            }
+            else{
+                printf("Not a Character!!");
+            }
 
 
     return 0;

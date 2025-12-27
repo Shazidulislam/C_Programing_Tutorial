@@ -172,13 +172,48 @@ int main()
        ✍️ *Used when you want to skip specific conditions but keep the loop running.*
 
     */
-
-    for(int i =0; i <=5; i++){
-        if(i==3){
+  /*
+    for(int i =0; i <=10; i++){
+        if(i==6){
            continue; 
         }
         printf("Skip the next iteration : %d \n" , i);
     }
 
+    */
+
+    // !! Question 20 --. Print all the odd number from 5 to 50
+    /*
+    for(int i =5 ; i<=50 ; i++){
+        if(i%2!=0){
+            printf("all Odd Number From 5 to 50--> %d \n" , i);
+
+        }
+    }
+
+    */
+
+    //!! question -21 --> Print the factorial of aa number n;
+    
+    /*
+     int n ;
+     printf("Enter a Value : ");
+     scanf("%d" ,&n);
+      int fact = 1;
+     for(int i =1; i<=n ; i++){
+        fact=fact*i;
+       
+     }
+      printf("Factorial result : %d \n" ,fact);
+      */
+     //!!Question 22
+     //!! Print revers of the table for a number n.
+     
+      int n ;
+      printf("Enter a Value : ");
+      scanf("%d" , &n);
+      for(int i =n; i>=1 ; i--){
+        printf("Result %d \n" , i);
+      }
     return 0;
 }

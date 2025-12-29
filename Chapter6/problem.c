@@ -5,6 +5,7 @@
 void callByReference(int *n);
 void sawapValue(int a, int b);
 void sawapReference(int *a, int *b);
+void printfAddress(int *n);
 int main()
 {
     /*
@@ -36,6 +37,7 @@ int main()
      */
     int a = 18;
     int b = 22;
+    /*
     sawapValue(a, b);
     printf("main value of a---> %d \n", a);
     printf("main value b --> %d \n", b);
@@ -43,9 +45,11 @@ int main()
     sawapReference(&a, &b);
     printf("main Reference value of a---> %d \n", a);
     printf("main Reference value of b---->  %d \n", b);
+   */
+    printfAddress(&a);
+    printf("Address of n is : %u \n ", &a);
 
-
-return 0;
+    return 0;
 }
 
 void callByReference(int *n)
@@ -85,3 +89,23 @@ void sawapReference(int *a, int *b)
     printf(" Reference value of a---> %d \n", *a);
     printf("Reference value of b---->  %d \n", *b);
 }
+
+//!! question 39--->
+/*
+!!
+*/
+
+void printfAddress(int *n)
+{
+    printf("Address of n is : %u \n ", n);
+}
+
+/*
+
+!! Practice Question 40
+
+??Write a function to calculate the sum , product & average
+??of 2 numbers. print that average in the main function
+??
+
+*/

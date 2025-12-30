@@ -122,7 +122,7 @@ int main(){
     /*
     int arr[] = {11 ,12 ,13 ,14 ,15 ,16} ;
     int n=6;
-    // printNumber(arr ,n);
+     printNumber(arr ,n);
     printNumber(&arr[0] ,n);
 */
 /*
